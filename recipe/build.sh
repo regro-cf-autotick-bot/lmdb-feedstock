@@ -2,6 +2,6 @@
 
 cd libraries/liblmdb/
 export DESTDIR=$PREFIX
-make
+make CC="${CC}"
 make test
 make install
